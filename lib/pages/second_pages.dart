@@ -74,7 +74,7 @@ class SecondPage extends StatelessWidget {
                     TextField(
                       decoration: InputDecoration(
                         filled: true,
-                        fillColor: Colors.amber.shade100,
+                        fillColor: Colors.pink.shade50,
                         border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(20),
                           borderSide: BorderSide.none,
@@ -92,7 +92,7 @@ class SecondPage extends StatelessWidget {
                         ElevatedButton(
                             style: ElevatedButton.styleFrom(
                               padding: EdgeInsets.all(20.0),
-                              primary: Colors.orange,
+                              primary: Colors.pink,
                             ),
                             child: Text('Iniciar Sesión'),
                             onPressed: () {}), // Botón Login
@@ -102,7 +102,7 @@ class SecondPage extends StatelessWidget {
                         ElevatedButton(
                             style: ElevatedButton.styleFrom(
                               padding: EdgeInsets.all(20.0),
-                              primary: Colors.red,
+                              primary: Colors.cyan,
                             ),
                             child: Text('Cancelar'),
                             onPressed: () {}), // Botón Login

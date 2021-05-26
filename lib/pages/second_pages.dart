@@ -1,15 +1,23 @@
 import 'package:flutter/material.dart';
+import 'dart:ui' as ui;
 
 class SecondPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: Center(
-        child: Text(
-          'Segunda Pagina',
-          style: new TextStyle(fontSize: 14.0, fontWeight: FontWeight.bold, color: Colors.black),
-        ), //Text
-      ), // center
-    ); //container
+    final ui.Size logicalSize = MediaQuery.of(context).size;
+    final double height = logicalSize.height;
+    return Scaffold(
+      resizeToAvoidBottomPadding: false,
+      body: SafeArea(
+        child: Container(
+          width: double.infinity,
+          height: double.infinity,
+          //color:Colors.green,
+          padding: EdgeInsets.symmetric(horizontal: 30.0),
+          child:
+        )
+      ),
+      
+    );//scaffold
   } // widget
 } // first page

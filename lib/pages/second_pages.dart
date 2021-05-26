@@ -51,7 +51,7 @@ class SecondPage extends StatelessWidget {
                             child: new Image(
                               width: 250.0,
                               height: 165.1,
-                              image: new AssetImage('assets/images/images.png'),
+                              image: new AssetImage('assets/images/Taller.jpg'),
                             ),
                           ),
                         ],
@@ -61,7 +61,7 @@ class SecondPage extends StatelessWidget {
                     TextField(
                       decoration: InputDecoration(
                         filled: true,
-                        fillColor: Colors.amber.shade100,
+                        fillColor: Colors.pink.shade50,
                         border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(20),
                           borderSide: BorderSide.none,

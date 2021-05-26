@@ -32,9 +32,9 @@ class _ThirdPageState extends State<ThirdPage> {
                   borderRadius: BorderRadius.circular(30.0),
                   gradient: LinearGradient(
                     colors: [
-                      Colors.blue,
-                      Colors.blue[300],
-                      Colors.blue[200],
+                      Colors.cyan,
+                      Colors.cyan,
+                      Colors.cyan,
                     ],
                     begin: Alignment.bottomLeft,
                     end: Alignment.topRight,
@@ -43,7 +43,7 @@ class _ThirdPageState extends State<ThirdPage> {
                 child: Container(
                   padding: EdgeInsets.only(top: 35.0, bottom: 16),
                   child: Text(
-                    'Deyra - 25',
+                    'Camila Villegas',
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       color: Colors.black,
@@ -106,7 +106,7 @@ class _ThirdPageState extends State<ThirdPage> {
                     ),
                   ),
                   child: ImageIcon(
-                    AssetImage("assets/images/35078.png"),
+                    AssetImage("assets/images/electrico.jpg"),
                     size: 100,
                     color: Colors.white,
                   ),

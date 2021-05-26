@@ -18,7 +18,7 @@ class _ThirdPageState extends State<ThirdPage> {
                 height: 80.0,
               ),
               Container(
-                color: Colors.amber,
+                color: Colors.pink,
                 height: 200,
                 width: 350,
               ),
@@ -73,7 +73,7 @@ class _ThirdPageState extends State<ThirdPage> {
                   ),
                 ),
                 child: Text(
-                  'yeehaw',
+                  'Enter',
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     color: Colors.black,

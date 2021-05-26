@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
 
-class ThirdPage extends StatelessWidget {
+class ThirdPage extends StatefulWidget {
+  @override
+  _ThirdPageState createState() => _ThirdPageState();
+}
+
+class _ThirdPageState extends State<ThirdPage> {
   @override
   Widget build(BuildContext context) {
     return Material(
@@ -13,7 +18,7 @@ class ThirdPage extends StatelessWidget {
                 height: 80.0,
               ),
               Container(
-                color: Colors.cyan,
+                color: Colors.amber,
                 height: 200,
                 width: 350,
               ),
@@ -38,7 +43,7 @@ class ThirdPage extends StatelessWidget {
                 child: Container(
                   padding: EdgeInsets.only(top: 35.0, bottom: 16),
                   child: Text(
-                    'Camila Villegas',
+                    'Deyra - 25',
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       color: Colors.black,
@@ -101,7 +106,7 @@ class ThirdPage extends StatelessWidget {
                     ),
                   ),
                   child: ImageIcon(
-                    AssetImage("assets/images/electrico.jpg"),
+                    AssetImage("assets/images/35078.png"),
                     size: 100,
                     color: Colors.white,
                   ),
@@ -114,5 +119,3 @@ class ThirdPage extends StatelessWidget {
     );
   }
 }
-  } // widget
-} // first page

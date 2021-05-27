@@ -106,7 +106,7 @@ class _ThirdPageState extends State<ThirdPage> {
                     ),
                   ),
                   child: ImageIcon(
-                    AssetImage("assets/images/carita.png"),
+                    AssetImage("assets/images/"),
                     size: 100,
                     color: Colors.white,
                   ),
